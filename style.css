@@ -298,3 +298,28 @@ nav {
     line-height: 30px;
   }
 }
+/* btn styles  */
+.btn2{
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  & a{
+    text-decoration: none;
+    padding: 15px 25px;
+    font-family: var(--font-family-Inter);
+    &.a1{
+      background: var(--brand-color);
+      color: #fff;
+      border-radius: 10px;
+    }
+    &.a2{
+      display: flex;
+      align-items: start;
+      gap: 10px;
+      color: #ffffff8f;
+      font-weight: 200;
+    }
+  }
+}
+

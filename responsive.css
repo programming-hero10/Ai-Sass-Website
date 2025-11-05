@@ -109,6 +109,21 @@
     }
   }
 }
+/* btn styles */
+.btn2{
+  gap: 10px;
+  padding: 20px;
+  font-size: 14px;
+  & a{
+    &.a1{
+      padding: 15px 15px;
+    }
+    &.a2{
+      padding: 10px 15px;
+      gap: 5px;
+    }
+  }
+}
 
 @media screen and (min-width: 766px) and (max-width: 988px) {
   nav {
